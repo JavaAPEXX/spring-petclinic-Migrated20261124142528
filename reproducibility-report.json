@@ -1,0 +1,850 @@
+{
+  "report_id": "rep_9c4ef6dd97c2_1795514952",
+  "fingerprint": "9c4ef6dd97c21f1775c8650f134116b6b0bf038f4b9148fcbe4ed4a9929fa765",
+  "plan_id": "plan_9c4ef6dd97c2",
+  "run_timestamp": "2026-11-24T10:09:12.314405+00:00",
+  "identical": true,
+  "drift_detected": false,
+  "reasons": [],
+  "file_comparisons": [
+    {
+      "actual_sha256": "910da2f7232f32f29c90671be3de3cbdd7e30498d82b346778b31a77130a0948",
+      "expected_sha256": "910da2f7232f32f29c90671be3de3cbdd7e30498d82b346778b31a77130a0948",
+      "file_path": "pom.xml",
+      "match": true,
+      "status": "MATCH"
+    },
+    {
+      "actual_sha256": "f7d1637063a8c95085eb70010a59344cdcba0c25903c3107f521aa747b0ed226",
+      "expected_sha256": "f7d1637063a8c95085eb70010a59344cdcba0c25903c3107f521aa747b0ed226",
+      "file_path": "build.gradle",
+      "match": true,
+      "status": "MATCH"
+    }
+  ],
+  "dependency_comparisons": [
+    {
+      "actual_version": "1.6.6",
+      "coordinate": "ch.qos.logback:logback-classic",
+      "expected_version": "1.6.6",
+      "match": true
+    },
+    {
+      "actual_version": "1.6.6",
+      "coordinate": "ch.qos.logback:logback-core",
+      "expected_version": "1.6.6",
+      "match": true
+    },
+    {
+      "actual_version": "1.8.0",
+      "coordinate": "com.fasterxml:classmate",
+      "expected_version": "1.8.0",
+      "match": true
+    },
+    {
+      "actual_version": "3.3.1",
+      "coordinate": "com.github.ben-manes.caffeine:caffeine",
+      "expected_version": "3.3.1",
+      "match": true
+    },
+    {
+      "actual_version": "2.50.0",
+      "coordinate": "com.google.errorprone:error_prone_annotations",
+      "expected_version": "2.50.0",
+      "match": true
+    },
+    {
+      "actual_version": "2.5.252",
+      "coordinate": "com.h2database:h2",
+      "expected_version": "2.5.252",
+      "match": true
+    },
+    {
+      "actual_version": "3.0.0",
+      "coordinate": "com.jayway.jsonpath:json-path",
+      "expected_version": "3.0.0",
+      "match": true
+    },
+    {
+      "actual_version": "26.10.0",
+      "coordinate": "com.mysql:mysql-connector-j",
+      "expected_version": "26.10.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "com.zaxxer:hikaricp",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "1.22.1",
+      "coordinate": "commons-codec:commons-codec",
+      "expected_version": "1.22.1",
+      "match": true
+    },
+    {
+      "actual_version": "1.4.0",
+      "coordinate": "commons-logging:commons-logging",
+      "expected_version": "1.4.0",
+      "match": true
+    },
+    {
+      "actual_version": "1.18.0",
+      "coordinate": "io.micrometer:micrometer-commons",
+      "expected_version": "1.18.0",
+      "match": true
+    },
+    {
+      "actual_version": "1.18.0",
+      "coordinate": "io.micrometer:micrometer-core",
+      "expected_version": "1.18.0",
+      "match": true
+    },
+    {
+      "actual_version": "1.18.0",
+      "coordinate": "io.micrometer:micrometer-jakarta9",
+      "expected_version": "1.18.0",
+      "match": true
+    },
+    {
+      "actual_version": "1.18.0",
+      "coordinate": "io.micrometer:micrometer-observation",
+      "expected_version": "1.18.0",
+      "match": true
+    },
+    {
+      "actual_version": "1.18.0",
+      "coordinate": "io.micrometer:micrometer-observation-test",
+      "expected_version": "1.18.0",
+      "match": true
+    },
+    {
+      "actual_version": "1.18.17",
+      "coordinate": "net.bytebuddy:byte-buddy",
+      "expected_version": "1.18.17",
+      "match": true
+    },
+    {
+      "actual_version": "1.18.17",
+      "coordinate": "net.bytebuddy:byte-buddy-agent",
+      "expected_version": "1.18.17",
+      "match": true
+    },
+    {
+      "actual_version": "2.6.1",
+      "coordinate": "net.minidev:accessors-smart",
+      "expected_version": "2.6.1",
+      "match": true
+    },
+    {
+      "actual_version": "2.6.1",
+      "coordinate": "net.minidev:json-smart",
+      "expected_version": "2.6.1",
+      "match": true
+    },
+    {
+      "actual_version": "3.21.0",
+      "coordinate": "org.apache.commons:commons-lang3",
+      "expected_version": "3.21.0",
+      "match": true
+    },
+    {
+      "actual_version": "2.26.1",
+      "coordinate": "org.apache.logging.log4j:log4j-api",
+      "expected_version": "2.26.1",
+      "match": true
+    },
+    {
+      "actual_version": "2.26.1",
+      "coordinate": "org.apache.logging.log4j:log4j-to-slf4j",
+      "expected_version": "2.26.1",
+      "match": true
+    },
+    {
+      "actual_version": "11.0.27",
+      "coordinate": "org.apache.tomcat.embed:tomcat-embed-core",
+      "expected_version": "11.0.27",
+      "match": true
+    },
+    {
+      "actual_version": "11.0.27",
+      "coordinate": "org.apache.tomcat.embed:tomcat-embed-el",
+      "expected_version": "11.0.27",
+      "match": true
+    },
+    {
+      "actual_version": "11.0.27",
+      "coordinate": "org.apache.tomcat.embed:tomcat-embed-websocket",
+      "expected_version": "11.0.27",
+      "match": true
+    },
+    {
+      "actual_version": "1.9.27",
+      "coordinate": "org.aspectj:aspectjweaver",
+      "expected_version": "1.9.27",
+      "match": true
+    },
+    {
+      "actual_version": "2.0.10.RELEASE",
+      "coordinate": "org.attoparser:attoparser",
+      "expected_version": "2.0.10.RELEASE",
+      "match": true
+    },
+    {
+      "actual_version": "3.55.1",
+      "coordinate": "org.checkerframework:checker-qual",
+      "expected_version": "3.55.1",
+      "match": true
+    },
+    {
+      "actual_version": "7.4.15.Final",
+      "coordinate": "org.hibernate.orm:hibernate-core",
+      "expected_version": "7.4.15.Final",
+      "match": true
+    },
+    {
+      "actual_version": "9.1.6.Final",
+      "coordinate": "org.hibernate.validator:hibernate-validator",
+      "expected_version": "9.1.6.Final",
+      "match": true
+    },
+    {
+      "actual_version": "1.0.1",
+      "coordinate": "org.jspecify:jspecify",
+      "expected_version": "1.0.1",
+      "match": true
+    },
+    {
+      "actual_version": "6.1.3",
+      "coordinate": "org.junit.jupiter:junit-jupiter",
+      "expected_version": "6.1.3",
+      "match": true
+    },
+    {
+      "actual_version": "6.1.3",
+      "coordinate": "org.junit.jupiter:junit-jupiter-api",
+      "expected_version": "6.1.3",
+      "match": true
+    },
+    {
+      "actual_version": "6.1.3",
+      "coordinate": "org.junit.jupiter:junit-jupiter-engine",
+      "expected_version": "6.1.3",
+      "match": true
+    },
+    {
+      "actual_version": "6.1.3",
+      "coordinate": "org.junit.jupiter:junit-jupiter-params",
+      "expected_version": "6.1.3",
+      "match": true
+    },
+    {
+      "actual_version": "6.1.3",
+      "coordinate": "org.junit.platform:junit-platform-commons",
+      "expected_version": "6.1.3",
+      "match": true
+    },
+    {
+      "actual_version": "6.1.3",
+      "coordinate": "org.junit.platform:junit-platform-engine",
+      "expected_version": "6.1.3",
+      "match": true
+    },
+    {
+      "actual_version": "5.24.0",
+      "coordinate": "org.mockito:mockito-core",
+      "expected_version": "5.24.0",
+      "match": true
+    },
+    {
+      "actual_version": "5.24.0",
+      "coordinate": "org.mockito:mockito-junit-jupiter",
+      "expected_version": "5.24.0",
+      "match": true
+    },
+    {
+      "actual_version": "9.11.1",
+      "coordinate": "org.ow2.asm:asm",
+      "expected_version": "9.11.1",
+      "match": true
+    },
+    {
+      "actual_version": "42.7.14",
+      "coordinate": "org.postgresql:postgresql",
+      "expected_version": "42.7.14",
+      "match": true
+    },
+    {
+      "actual_version": "2.0.20",
+      "coordinate": "org.slf4j:jul-to-slf4j",
+      "expected_version": "2.0.20",
+      "match": true
+    },
+    {
+      "actual_version": "2.0.20",
+      "coordinate": "org.slf4j:slf4j-api",
+      "expected_version": "2.0.20",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-aop",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-aspects",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-beans",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-context",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-context-support",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-core",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-expression",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-jdbc",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-orm",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-test",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-tx",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-web",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "7.1.0",
+      "coordinate": "org.springframework:spring-webmvc",
+      "expected_version": "7.1.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-actuator",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-autoconfigure",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-cache",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-cache-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-data-commons",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-data-jpa",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-data-jpa-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-devtools",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-docker-compose",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-health",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-hibernate",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-http-client",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-http-converter",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-jackson",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-jdbc",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-jdbc-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-jpa",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-jpa-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-micrometer-metrics",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-micrometer-metrics-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-micrometer-observation",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-persistence",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-restclient",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-restclient-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-resttestclient",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-servlet",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-sql",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-actuator",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-actuator-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-cache",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-cache-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-data-jpa",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-data-jpa-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-jackson",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-jackson-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-jdbc",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-jdbc-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-logging",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-micrometer-metrics",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-micrometer-metrics-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-restclient",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-restclient-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-thymeleaf",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-thymeleaf-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-tomcat",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-tomcat-runtime",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-validation",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-validation-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-webmvc",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-webmvc-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-test-autoconfigure",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-testcontainers",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-thymeleaf",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-tomcat",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-transaction",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-validation",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-web-server",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-webmvc",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.boot:spring-boot-webmvc-test",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.data:spring-data-commons",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "4.2.0",
+      "coordinate": "org.springframework.data:spring-data-jpa",
+      "expected_version": "4.2.0",
+      "match": true
+    },
+    {
+      "actual_version": "3.1.7.RELEASE",
+      "coordinate": "org.thymeleaf:thymeleaf",
+      "expected_version": "3.1.7.RELEASE",
+      "match": true
+    },
+    {
+      "actual_version": "3.1.7.RELEASE",
+      "coordinate": "org.thymeleaf:thymeleaf-spring6",
+      "expected_version": "3.1.7.RELEASE",
+      "match": true
+    },
+    {
+      "actual_version": "1.1.8.RELEASE",
+      "coordinate": "org.unbescape:unbescape",
+      "expected_version": "1.1.8.RELEASE",
+      "match": true
+    },
+    {
+      "actual_version": "1.1.5",
+      "coordinate": "org.webjars:webjars-locator-lite",
+      "expected_version": "1.1.5",
+      "match": true
+    },
+    {
+      "actual_version": "2.14.0",
+      "coordinate": "org.xmlunit:xmlunit-core",
+      "expected_version": "2.14.0",
+      "match": true
+    },
+    {
+      "actual_version": "2.7",
+      "coordinate": "org.yaml:snakeyaml",
+      "expected_version": "2.7",
+      "match": true
+    },
+    {
+      "actual_version": "3.1.8",
+      "coordinate": "tools.jackson.core:jackson-core",
+      "expected_version": "3.1.8",
+      "match": true
+    },
+    {
+      "actual_version": "3.1.8",
+      "coordinate": "tools.jackson.core:jackson-databind",
+      "expected_version": "3.1.8",
+      "match": true
+    }
+  ],
+  "metrics_comparison": {
+    "dependencies_upgraded": {
+      "actual": 131,
+      "expected": 131,
+      "match": true
+    },
+    "files_modified": {
+      "actual": 2,
+      "expected": 2,
+      "match": true
+    }
+  },
+  "build_validation_result": {
+    "actual_success": true,
+    "expected_success": true,
+    "match": true
+  },
+  "build_environment": {
+    "build_tool": "MAVEN",
+    "os_architecture": "AMD64",
+    "os_name": "nt",
+    "os_platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.13.14",
+    "timestamp": "2026-11-24T10:09:12.314370+00:00"
+  },
+  "llm_telemetry": {
+    "fallbacks_attempted": 0,
+    "model_id": "gemini-3.1-flash-lite-preview",
+    "provider": "gemini",
+    "temperature": 0.0
+  }
+}
